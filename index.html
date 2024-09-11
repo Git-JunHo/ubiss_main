@@ -162,8 +162,33 @@ window.onload = function() {
     });
 
 }
-      
         
+    </script>
+    <script>
+        const images = [
+            './ubissimage/slide/10.png',
+            './ubissimage/slide/2.jpg',
+            './ubissimage/slide/3.jpg',
+            './ubissimage/slide/4.jpg',
+            './ubissimage/slide/5.jpg',
+            './ubissimage/slide/6.jpg',
+            './ubissimage/slide/7.jpg',
+            './ubissimage/slide/8.jpg',
+            './ubissimage/slide/9.jpg',
+            './ubissimage/slide/10.png',
+            './ubissimage/slide/11.jpg',
+            './ubissimage/slide/12.jpg',
+            './ubissimage/slide/13.jpg',
+            './ubissimage/slide/1.jpg',
+            './ubissimage/slide/15.jpg'
+
+            // 추가 이미지 경로들...
+        ];
+        
+        images.forEach((image) => {
+            const img = new Image();
+            img.src = image;
+        });
     </script>
 
 </html>
