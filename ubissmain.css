@@ -17,7 +17,7 @@
 
 
 .mainpage_bg {
-    background: url("ubissimage/bg_sub000.png") no-repeat top center; /* 이미지가 가운데 정렬되며, 아래쪽에 위치 */
+    background: url("ubissimage/bg/bg_sub000.png") no-repeat top center; /* 이미지가 가운데 정렬되며, 아래쪽에 위치 */
     background-size: contain; /*이미지가 화면에 맞춰 축소되도록 설정 (또는 필요에 따라 90% 등으로 설정)*/
     height: 100vh; /* 전체 화면 높이 설정 */
     width: 100%; /* 전체 화면 너비 설정 */
